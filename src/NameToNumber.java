@@ -6,6 +6,4 @@ public class NameToNumber
         int y = '洋';
         System.out.println("谭："+t+" 洋："+y);
     }
-
-
 }

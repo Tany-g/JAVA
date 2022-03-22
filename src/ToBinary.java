@@ -1,12 +1,9 @@
-import javax.swing.*;
-
 public class ToBinary
 {
     public static void main(String[] args)
     {
-        int i=6;
-        int a=-2147483648; // 掩码
-
+        int i=5;
+        int a=-2147483648; //
         while(true)
         {
             if((i & a)==0)
@@ -23,9 +20,7 @@ public class ToBinary
                 break;
             }
         }
-
     }
-
 }
 
 

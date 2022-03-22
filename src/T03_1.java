@@ -11,9 +11,5 @@ public class T03_1
             }
             System.out.print("\n");
         }
-
-
     }
-
-
 }
