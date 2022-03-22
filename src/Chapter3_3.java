@@ -2,8 +2,9 @@ public class Chapter3_3
 {
     public static void main(String[] args)
     {
-        float [][] A= {{1.2f, 2.3f, 3.4f},
-                       {4.5f, 5.6f, 6.7f}};
+        float [][] A= {
+                {1.2f, 2.3f, 3.4f},
+                {4.5f, 5.6f, 6.7f}};
         float [][] B= {
                 {9.8f, 8.7f, 7.6f, 6.5f},
                 {8.7f, 7.6f, 6.5f, 5.4f},
