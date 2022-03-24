@@ -11,7 +11,7 @@ public class T03_3_2
         for(int i=0; i<d; i++)
         {
             int l = (int)Math.round(Math.sqrt(Math.pow(r,2)-Math.pow(r-i,2)));
-            float fractionalPpart = (float)Math.sqrt(Math.pow(r,2)-Math.pow(r-i,2))%1;
+            float fractionalPart = (float)Math.sqrt(Math.pow(r,2)-Math.pow(r-i,2))%1;
             int kong = r - l;
             int wide=2*l;
 
@@ -19,7 +19,7 @@ public class T03_3_2
             {
                 System.out.print("   ");
             }
-            if(fractionalPpart>=0.8||fractionalPpart<=0.2)
+            if(fractionalPart>=0.8||fractionalPart<=0.2)
             {
                 System.out.print("*");
             }
@@ -27,7 +27,7 @@ public class T03_3_2
             {
                 System.out.print("   ");
             }
-            if(fractionalPpart>=0.8||fractionalPpart<=0.2)
+            if(fractionalPart>=0.8||fractionalPart<=0.2)
             {
                 System.out.print("*");
             }
